@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коментарии</title>
+    <link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+<div class="container">
+<h2>Регистрация</h2>
+<form id="registrationForm" novalidate>
+  
+  <div class="form-group">
+    <label for="username">Имя пользователя:</label>
+    <input type="text" id="username" name="username" required />
+    <div class="error" id="error-username"></div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Электронная почта:</label>
+    <input type="email" id="email" name="email" required />
+    <div class="error" id="error-email"></div>
+  </div>
+
+  <div class="form-group">
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required minlength="6" />
+    <div class="error" id="error-password"></div>
+  </div>
+
+  <button type="submit" href="index.html">Зарегистрироваться</button>
+</form>
+</div>
+
+<script src="/script1.js"></script>
+
+</body>
+</html>
